@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Inicio Sesion</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+<!--<form action='SesionesServlet' method="POST"> -->
+  <body class="text-center">
+      
+      <form class="form-signin" action='Sesiones' method="GET">
+          
+      <img src="bootstrap-solid.svg" alt="" width="72" height="72">
+      <h1>Iniciar sesion</h1>
+      <!--Codigo de Email-->
+      
+      <label for="inputEmail">Correo electronico</label>
+      <input type="email" id="inputEmail" name="Correo" class="form-control" required="" autofocus="">
+      <!--Codigo de Contraseña-->
+      
+      <label for="inputPassword">Contraseña</label>
+      <input type="password" id="inputPassword" name="Contra" class="form-control" required="">
+      
+      <input class="btn btn-lg btn-primary btn-block" type="submit">
+      <p>© 2017-Siempre <3</p>
+    
+      </form>
+
+</body>
+</html>
